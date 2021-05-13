@@ -2,26 +2,25 @@ body {
   background-color: black;
   background-size: cover;
   font-family: sans-serif;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10%;
 }
 
 .owl-carousel {
-  overflow: hidden;
+  overflow: unset;
 }
 
 .owl-content {
-  background: rgba(40, 174, 25, 0.65);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(6.5px);
   -webkit-backdrop-filter: blur(6.5px);
 
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid none;
   padding: 10px;
   display: flex;
+  color: antiquewhite;
 }
 
 .owl-carousel .owl-item img {
