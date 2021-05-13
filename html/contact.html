@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styling/navbar.css" />
+    <link rel="stylesheet" href="/styling/contact.css">
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/07c41cdf40.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link">
+          <a href="/index.html" class="navbar-anchor">Home</a>
+        </li>
+        <li class="navbar-link">
+          <a href="/html/about.html" class="navbar-anchor">About</a>
+        </li>
+        
+        <li class="navbar-link">
+          <a href="/html/portfolio.html" class="navbar-anchor">Portfolio</a>
+        </li>
+        <li class="navbar-link">
+          <a href="/html/testimonials.html" class="navbar-anchor"
+            >Testimonials</a
+          >
+        </li>
+        <li class="navbar-link">
+          <a href="/html/contact.html" class="navbar-anchor">Contact</a>
+        </li>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+<!-- CONTACT FORM -->
+        <section class="contact">
+          <form
+            id="contact-form"
+            method="POST"
+            action=""
+          >
+            <input
+              class="contact-input"
+              type="text"
+              name="full_name"
+              id="full_name"
+              placeholder="Name"
+              required
+            />
+            <input
+              class="contact-input"
+              type="tel"
+              name="contact_no"
+              id="contact_no"
+              placeholder="Contact No"
+              required
+            />
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              class="contact-input"
+              name="message"
+              id="message"
+              placeholder="Type your message here"
+            ></textarea>
+            <button class="button" type="submit">Submit Information</button>
+          </form>
+        </section>
+
+        <section>
+          <h1 class="word-contact">contact</h1>
+        </section>
+        </div>
+      </div>
+    </div>
+    <i class="fas fa-quote-left"></i>
+
+  </body>
+  <!-- Javascript -->
+  <script src="/scripts/Script_.js"></script>
+</html>
