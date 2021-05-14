@@ -95,3 +95,7 @@ body {
 .card-description {
   margin-bottom: 10px;
 }
+
+.card:hover {
+  background-color: deeppink;
+}

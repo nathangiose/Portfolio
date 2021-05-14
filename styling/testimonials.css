@@ -9,7 +9,9 @@ body {
 }
 
 .owl-carousel {
-  overflow: unset;
+  overflow: hidden;
+
+  max-width: 80vw;
 }
 
 .owl-content {
