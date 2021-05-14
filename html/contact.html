@@ -7,7 +7,7 @@
     <title>Contact</title>
     <!-- CSS -->
     <link rel="stylesheet" href="/styling/navbar.css" />
-    <link rel="stylesheet" href="/styling/contact.css">
+    <link rel="stylesheet" href="/styling/contact.css" />
 
     <!-- Font Awesome -->
     <script
@@ -24,7 +24,7 @@
         <li class="navbar-link">
           <a href="/html/about.html" class="navbar-anchor">About</a>
         </li>
-        
+
         <li class="navbar-link">
           <a href="/html/portfolio.html" class="navbar-anchor">Portfolio</a>
         </li>
@@ -42,56 +42,58 @@
       </button>
     </nav>
 
-<!-- CONTACT FORM -->
-        <section class="contact">
-          <form
-            id="contact-form"
-            method="POST"
-            action=""
-          >
-            <input
-              class="contact-input"
-              type="text"
-              name="full_name"
-              id="full_name"
-              placeholder="Name"
-              required
-            />
-            <input
-              class="contact-input"
-              type="tel"
-              name="contact_no"
-              id="contact_no"
-              placeholder="Contact No"
-              required
-            />
-            <input
-              class="contact-input"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              class="contact-input"
-              name="message"
-              id="message"
-              placeholder="Type your message here"
-            ></textarea>
-            <button class="button" type="submit">Submit Information</button>
-          </form>
-        </section>
-
-        <section>
-          <h1 class="word-contact">contact</h1>
-        </section>
-        </div>
-      </div>
-    </div>
-    <i class="fas fa-quote-left"></i>
-
+    <!-- CONTACT FORM -->
+    <section class="contact">
+      <h1 id="contact">CONTACT</h1>
+      <form
+        id="contact-form"
+        method="POST"
+        action="https://formspree.io/f/xwkalody"
+      >
+        <input
+          class="contact-input"
+          type="text"
+          name="full_name"
+          id="full_name"
+          placeholder="Name"
+          required
+        />
+        <input
+          class="contact-input"
+          type="tel"
+          name="contact_no"
+          id="contact_no"
+          placeholder="Contact No"
+          required
+        />
+        <input
+          class="contact-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        <textarea
+          class="contact-input"
+          name="message"
+          id="message"
+          placeholder="Type your message here"
+        ></textarea>
+        <button class="button" type="submit">Submit Information</button>
+      </form>
+      <iframe
+        id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.669809111952!2d18.628763714692937!3d-34.02668558061301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4f4e47841391%3A0x7e068292281d0d42!2s2%20Edna%20Cl%2C%20Lentegeur%2C%20Cape%20Town%2C%207786!5e0!3m2!1sen!2sza!4v1620975075029!5m2!1sen!2sza"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
   </body>
   <!-- Javascript -->
+
   <script src="/scripts/Script_.js"></script>
 </html>

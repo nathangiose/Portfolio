@@ -5,6 +5,9 @@
 body {
   background-color: black;
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .contact {
@@ -14,8 +17,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 77px;
-  padding: 66px;
+  width: 100%;
 }
 
 #contact-form {
@@ -24,7 +26,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   max-width: 50%;
-  width: 100%;
 }
 
 #contact-form {
@@ -121,4 +122,22 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   float: left;
+}
+
+#map {
+  height: 100%;
+  max-width: 40%;
+  flex-wrap: wrap;
+}
+
+#contact {
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  grid-template-rows: 3;
+  grid-template-columns: 1;
+  color: antiquewhite;
+  background-color: #251170;
+  font-family: sans-serif;
+  max-width: 10%;
 }
